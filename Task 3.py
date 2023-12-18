@@ -35,4 +35,7 @@ converted_meters = LengthConverter.convert_feet_to_meters(feet_length)
 converted_inches = LengthConverter.convert_centimeters_to_inches(centimeters_length)
 converted_centimeters = LengthConverter.convert_inches_to_centimeters(inches_length)
 
-
+print(f"{meters_length} meters is equal to {converted_feet:.2f} feet")
+print(f"{feet_length} feet is equal to {converted_meters:.2f} meters")
+print(f"{centimeters_length} centimeters is equal to {converted_inches:.2f} inches")
+print(f"{inches_length} inches is equal to {converted_centimeters:.2f} centimeters")
