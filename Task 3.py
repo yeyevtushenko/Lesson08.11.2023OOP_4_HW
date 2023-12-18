@@ -25,3 +25,8 @@ class LengthConverter:
         return inches / LengthConverter.CENTIMETERS_TO_INCHES
 
 
+meters_length = 5
+feet_length = 16.4042
+centimeters_length = 10
+inches_length = 3.93701
+
