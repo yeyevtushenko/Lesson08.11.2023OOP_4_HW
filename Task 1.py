@@ -15,7 +15,7 @@ class Fraction:
     def get_object_count():
         return Fraction.object_count
 
-fraction1 = Fraction(1, 2)
+fraction1 = Fraction(7, 2)
 fraction2 = Fraction(3, 4)
 
 print(f"Count of created objects of the 'Fraction' class: {Fraction.get_object_count()}")
