@@ -30,3 +30,9 @@ feet_length = 16.4042
 centimeters_length = 10
 inches_length = 3.93701
 
+converted_feet = LengthConverter.convert_meters_to_feet(meters_length)
+converted_meters = LengthConverter.convert_feet_to_meters(feet_length)
+converted_inches = LengthConverter.convert_centimeters_to_inches(centimeters_length)
+converted_centimeters = LengthConverter.convert_inches_to_centimeters(inches_length)
+
+
