@@ -14,3 +14,7 @@ class Fraction:
     @staticmethod
     def get_object_count():
         return Fraction.object_count
+
+fraction1 = Fraction(1, 2)
+fraction2 = Fraction(3, 4)
+
