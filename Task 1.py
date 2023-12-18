@@ -10,3 +10,7 @@ class Fraction:
 
     def __str__(self):
         return f"{self.numerator}/{self.denominator}"
+
+    @staticmethod
+    def get_object_count():
+        return Fraction.object_count
